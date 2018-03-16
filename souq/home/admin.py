@@ -15,9 +15,9 @@ admin.site.register(Brand,BrandAdmin)
 
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['name','category','Brand','price','stock','available','created','updated','see_first']
-    list_filter = ['Brand','created','category','see_first']
-    list_editable = ['price','stock','available','see_first']
+    list_display = ['name','category','Brand','price','stock','available','created','updated']
+    list_filter = ['Brand','created','category']
+    list_editable = ['price','stock','available']
     prepopulated_fields = {'slug':('name',)}
     search_fields = ["name"]
     ordering = ['name']

@@ -45,7 +45,6 @@ class Product(models.Model):
     available=models.BooleanField(default=True)
     created=models.DateTimeField(auto_now_add=True)
     updated=models.DateTimeField(auto_now=True)
-    see_first = models.PositiveIntegerField(default=0)#zero =in normal sort
 
     class Meta:
         ordering=('name',)
