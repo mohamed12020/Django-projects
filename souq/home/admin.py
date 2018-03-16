@@ -1,5 +1,4 @@
 from django.contrib import admin
-
 from .models import Category,Product,Brand
 
 # Register your models here.
@@ -21,5 +20,8 @@ class ProductAdmin(admin.ModelAdmin):
     list_editable = ['price','stock','available','see_first']
     prepopulated_fields = {'slug':('name',)}
     search_fields = ["name"]
-admin.site.register(Product,ProductAdmin)
+    ordering = ['name']
 
+
+
+admin.site.register(Product,ProductAdmin)
