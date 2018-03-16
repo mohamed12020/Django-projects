@@ -1,4 +1,4 @@
-#!C:\Users\mr root\Desktop\mypro\souq\env\Scripts\python.exe
+#!C:\Users\mr root\Desktop\django-online-shopping-master\django-online-shopping-master\souq\env\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":

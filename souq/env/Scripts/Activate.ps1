@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\mr root\Desktop\mypro\souq\env"
+$env:VIRTUAL_ENV="C:\Users\mr root\Desktop\django-online-shopping-master\django-online-shopping-master\souq\env"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\mr root\Desktop\mypro\souq\env"
+set "VIRTUAL_ENV=C:\Users\mr root\Desktop\django-online-shopping-master\django-online-shopping-master\souq\env"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"
