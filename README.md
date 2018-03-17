@@ -6,3 +6,7 @@ I create ordering in admin panal when click in column which i need to ordering a
 when admin click save products will ordering in home page
 
 Hint this project must run in env
+or you can replace main.py with the file in this path Lib\site-packages\django\contrib\admin\views\ 
+in your interprter or virtualenv
+login :root
+password:admin12345
