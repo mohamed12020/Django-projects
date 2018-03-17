@@ -4,3 +4,5 @@ I create ordering in admin panal when click in column which i need to ordering a
 1-i use (request.method ) to cupture POST request in django admin main in the following path 
 :souq\env\Lib\site-packages\django\contrib\admin\views\main.py
 when admin click save products will ordering in home page
+
+Hint this project must run in env
